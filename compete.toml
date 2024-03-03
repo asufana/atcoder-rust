@@ -25,7 +25,13 @@ src = '''
 use proconio::input;
 
 fn main() {
-    input! {}
+    input! {
+        a: usize,
+        s: String
+    }
+    
+    let ret = "";
+    println!("{}", ret); 
 }
 '''
 
