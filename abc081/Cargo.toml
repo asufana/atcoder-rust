@@ -5,10 +5,15 @@ edition = "2021"
 
 [package.metadata.cargo-compete.bin]
 abc081-a = { alias = "a", problem = "https://atcoder.jp/contests/abc081/tasks/abc081_a" }
+abc081-b = { alias = "b", problem = "https://atcoder.jp/contests/abc081/tasks/abc081_b" }
 
 [[bin]]
 name = "abc081-a"
 path = "src/bin/a.rs"
+
+[[bin]]
+name = "abc081-b"
+path = "src/bin/b.rs"
 
 [dependencies]
 ac-library-rs = "=0.1.1"
