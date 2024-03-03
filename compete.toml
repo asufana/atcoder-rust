@@ -22,6 +22,7 @@ test-suite = "{{ manifest_dir }}/testcases/{{ bin_alias }}.yml"
 
 [template]
 src = '''
+use itertools::iproduct;
 use proconio::input;
 
 fn main() {
@@ -29,9 +30,9 @@ fn main() {
         a: usize,
         s: String
     }
-    
+
     let ret = "";
-    println!("{}", ret); 
+    println!("{}", ret);
 }
 '''
 
