@@ -1,4 +1,4 @@
-workspace = {members = ["practice", "abc086", "abc081", "abc087", "abc083", "abc088", "abc085", "abc049", "abc343", "abc342", "abc341", "abc344"],exclude = []}
+workspace = {members = ["practice", "abc086", "abc081", "abc087", "abc083", "abc088", "abc085", "abc049", "abc343", "abc342", "abc341", "abc344", "abc345"],exclude = []}
 [package]
 name = "atcoder-rust"
 version = "0.1.0"
