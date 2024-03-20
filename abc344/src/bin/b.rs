@@ -1,12 +1,15 @@
-use itertools::iproduct;
 use proconio::input;
 
 fn main() {
-    input! {
-        a: usize,
-        s: String
-    }
+    fetch();
+}
 
-    let ret = "";
-    println!("{}", ret);
+fn fetch() {
+    input! {
+        a: usize
+    }
+    if a > 0 {
+        fetch();
+    }
+    println!("{}", a)
 }
