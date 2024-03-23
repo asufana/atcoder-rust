@@ -1,12 +1,19 @@
-use itertools::iproduct;
 use proconio::input;
 
 fn main() {
     input! {
-        a: usize,
-        s: String
+        q: usize,
+        qs: [(usize, usize); q]
     }
 
-    let ret = "";
-    println!("{}", ret);
+    qs.iter().fold(Vec::new(), |mut acc, (i, x)| match i {
+        1 => {
+            acc.push(x);
+            acc
+        }
+        _ => {
+            println!("{}", acc.get(acc.len() - x).unwrap());
+            acc
+        }
+    });
 }
