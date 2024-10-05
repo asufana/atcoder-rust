@@ -1,0 +1,17 @@
+{
+  "name": "Rust AtCorder",
+  "dockerComposeFile": "compose.yml",
+  "service": "app",
+  "workspaceFolder": "/opt",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "vadimcn.vscode-lldb",
+        "fill-labs.dependi",
+        "tamasfe.even-better-toml"
+      ]
+    }
+  }
+}
