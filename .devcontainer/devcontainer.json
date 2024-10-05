@@ -1,0 +1,16 @@
+{
+  "name": "Rust AtCorder",
+  "dockerComposeFile": "compose.yml",
+  "service": "app",
+  "workspaceFolder": "/opt",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer",  // Rust Analyzer: Rust Language Server
+        "vadimcn.vscode-lldb",  // LLDB Debugger: Native debugger for Rust
+        "fill-labs.dependi"  // dependi
+      ]
+    }
+  }
+}
